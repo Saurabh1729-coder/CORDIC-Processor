@@ -1,0 +1,4 @@
+verilog work "fa.v"
+verilog work "two_comp_32.v"
+verilog work "twos_comp_genert.v"
+verilog work "stage.v"

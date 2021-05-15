@@ -1,0 +1,8 @@
+verilog isim_temp "HALF_ADDER_.v"
+verilog isim_temp "fa.v"
+verilog isim_temp "two_comp_32.v"
+verilog isim_temp "twos_comp_genert.v"
+verilog isim_temp "stage.v"
+verilog isim_temp "cordic.v"
+verilog isim_temp "cordic_test.v"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

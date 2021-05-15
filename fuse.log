@@ -1,0 +1,63 @@
+Running: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o F:/Miscellaneous/Avishkar/FPGA/CORDIC_Final2/CORDIC3_Gate_FixedPoint/CORDIC3/cordic_test_isim_beh.exe -prj F:/Miscellaneous/Avishkar/FPGA/CORDIC_Final2/CORDIC3_Gate_FixedPoint/CORDIC3/cordic_test_beh.prj work.cordic_test work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "F:/Miscellaneous/Avishkar/FPGA/CORDIC_Final2/CORDIC3_Gate_FixedPoint/CORDIC3/HALF_ADDER_.v" into library work
+Analyzing Verilog file "F:/Miscellaneous/Avishkar/FPGA/CORDIC_Final2/CORDIC3_Gate_FixedPoint/CORDIC3/fa.v" into library work
+Analyzing Verilog file "F:/Miscellaneous/Avishkar/FPGA/CORDIC_Final2/CORDIC3_Gate_FixedPoint/CORDIC3/twos_comp_genert.v" into library work
+Analyzing Verilog file "F:/Miscellaneous/Avishkar/FPGA/CORDIC_Final2/CORDIC3_Gate_FixedPoint/CORDIC3/shift.v" into library work
+Analyzing Verilog file "F:/Miscellaneous/Avishkar/FPGA/CORDIC_Final2/CORDIC3_Gate_FixedPoint/CORDIC3/two_comp_32.v" into library work
+Analyzing Verilog file "F:/Miscellaneous/Avishkar/FPGA/CORDIC_Final2/CORDIC3_Gate_FixedPoint/CORDIC3/stage_tan.v" into library work
+Analyzing Verilog file "F:/Miscellaneous/Avishkar/FPGA/CORDIC_Final2/CORDIC3_Gate_FixedPoint/CORDIC3/stage.v" into library work
+Analyzing Verilog file "F:/Miscellaneous/Avishkar/FPGA/CORDIC_Final2/CORDIC3_Gate_FixedPoint/CORDIC3/cordic_tan.v" into library work
+Analyzing Verilog file "F:/Miscellaneous/Avishkar/FPGA/CORDIC_Final2/CORDIC3_Gate_FixedPoint/CORDIC3/cordic.v" into library work
+Analyzing Verilog file "F:/Miscellaneous/Avishkar/FPGA/CORDIC_Final2/CORDIC3_Gate_FixedPoint/CORDIC3/cordic_test.v" into library work
+Analyzing Verilog file "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module HALF_ADDER_
+Compiling module fulladdr_test
+Compiling module fa(n=17)
+Compiling module twos_comp_genert(DATA_WID_=17)
+Compiling module fa(n=32)
+Compiling module two_comp_32_default
+Compiling module stage(p=0)
+Compiling module shift
+Compiling module stage(p=1)
+Compiling module stage(p=2)
+Compiling module stage(p=3)
+Compiling module stage(p=4)
+Compiling module stage(p=5)
+Compiling module stage(p=6)
+Compiling module stage(p=7)
+Compiling module stage(p=8)
+Compiling module stage(p=9)
+Compiling module stage(p=10)
+Compiling module stage(p=11)
+Compiling module stage(p=12)
+Compiling module stage(p=13)
+Compiling module stage(p=14)
+Compiling module twos_comp_genert_default
+Compiling module stage_tan(p=0)
+Compiling module stage_tan(p=1)
+Compiling module stage_tan(p=2)
+Compiling module stage_tan(p=3)
+Compiling module stage_tan(p=4)
+Compiling module stage_tan(p=5)
+Compiling module stage_tan(p=6)
+Compiling module stage_tan(p=7)
+Compiling module stage_tan(p=8)
+Compiling module stage_tan(p=9)
+Compiling module stage_tan(p=10)
+Compiling module stage_tan(p=11)
+Compiling module cordic_tan_default
+Compiling module CORDIC
+Compiling module cordic_test
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 17 sub-compilation(s) to finish...
+Compiled 39 Verilog Units
+Built simulation executable F:/Miscellaneous/Avishkar/FPGA/CORDIC_Final2/CORDIC3_Gate_FixedPoint/CORDIC3/cordic_test_isim_beh.exe
+Fuse Memory Usage: 38008 KB
+Fuse CPU Usage: 1264 ms

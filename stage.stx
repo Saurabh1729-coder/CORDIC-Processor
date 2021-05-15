@@ -1,0 +1,39 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/Ankit Yadav/Downloads/CORDIC3/CORDIC3/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/Ankit Yadav/Downloads/CORDIC3/CORDIC3/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "fa.v" in library work
+Compiling verilog file "two_comp_32.v" in library work
+Module <fa> compiled
+Module <two_comp_32> compiled
+Compiling verilog file "twos_comp_genert.v" in library work
+Module <HALF_ADDER_> compiled
+Module <twos_comp_genert> compiled
+ERROR:HDLCompilers:27 - "twos_comp_genert.v" line 37 Illegal redeclaration of 'HALF_ADDER_'
+Compiling verilog file "stage.v" in library work
+Module <HALF_ADDER_> compiled
+Module <stage> compiled
+Analysis of file <"stage.prj"> failed.
+--> 
+
+Total memory usage is 4477084 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

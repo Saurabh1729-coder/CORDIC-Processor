@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Ankit Yadav/Downloads/CORDIC3/CORDIC3/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Ankit Yadav/Downloads/CORDIC3/CORDIC3/xst"
+elaborate
+-ifn twos_comp_genert.prj
+-ifmt mixed

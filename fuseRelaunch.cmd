@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "F:/Miscellaneous/Avishkar/FPGA/CORDIC_Final2/CORDIC3_Gate_FixedPoint/CORDIC3/cordic_test_isim_beh.exe" -prj "F:/Miscellaneous/Avishkar/FPGA/CORDIC_Final2/CORDIC3_Gate_FixedPoint/CORDIC3/cordic_test_beh.prj" "work.cordic_test" "work.glbl" 

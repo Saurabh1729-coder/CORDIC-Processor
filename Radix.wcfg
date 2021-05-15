@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/hp/Desktop/FPGA/CORDIC3_Gate_FixedPoint/CORDIC3/cordic_test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="cordic_test" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/cordic_test/Xout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Xout[16:0]</obj_property>
+      <obj_property name="ObjectShortName">Xout[16:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cordic_test/Yout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Yout[16:0]</obj_property>
+      <obj_property name="ObjectShortName">Yout[16:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cordic_test/Xin" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Xin[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Xin[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cordic_test/Yin" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Yin[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Yin[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cordic_test/angle" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">angle[31:0]</obj_property>
+      <obj_property name="ObjectShortName">angle[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cordic_test/CLK_100MHZ" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CLK_100MHZ</obj_property>
+      <obj_property name="ObjectShortName">CLK_100MHZ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cordic_test/SZ" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">SZ[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SZ[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cordic_test/VALUE" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">VALUE</obj_property>
+      <obj_property name="ObjectShortName">VALUE</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cordic_test/CLK100_SPEED" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">CLK100_SPEED[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CLK100_SPEED[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

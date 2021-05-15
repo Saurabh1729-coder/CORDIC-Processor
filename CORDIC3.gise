@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="CORDIC3.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="CORDIC.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="CORDIC.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="CORDIC.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="CORDIC.syr"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="CORDIC_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="CORDIC_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="cordic.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="cordic.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="cordic.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="cordic.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="cordic_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="cordic_summary.html"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="cordic_test_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="cordic_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="cordic_test_isim_beh.wdb"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="cordic_test_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="fa.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="fa.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="fa.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="fa_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="fa_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="shift_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="stage.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="stage.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="stage.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="stage_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="stage_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test_lone_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="test_lone_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="test_lone_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test_shift_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="test_shift_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="test_shift_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="twos_comp_genert.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="twos_comp_genert.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="twos_comp_genert.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="twos_comp_genert_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1604301113" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1604301113">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1621099089" xil_pn:in_ck="6415711073899673048" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1621099089">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="HALF_ADDER_.v"/>
+      <outfile xil_pn:name="cordic.v"/>
+      <outfile xil_pn:name="cordic_tan.v"/>
+      <outfile xil_pn:name="cordic_test.v"/>
+      <outfile xil_pn:name="fa.v"/>
+      <outfile xil_pn:name="shift.v"/>
+      <outfile xil_pn:name="stage.v"/>
+      <outfile xil_pn:name="stage_tan.v"/>
+      <outfile xil_pn:name="two_comp_32.v"/>
+      <outfile xil_pn:name="twos_comp_genert.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1621098987" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-2464437019914492278" xil_pn:start_ts="1621098987">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1621098987" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-4701945666074625470" xil_pn:start_ts="1621098987">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1604344513" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-6118846026170198299" xil_pn:start_ts="1604344513">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1621099089" xil_pn:in_ck="6415711073899673048" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1621099089">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="HALF_ADDER_.v"/>
+      <outfile xil_pn:name="cordic.v"/>
+      <outfile xil_pn:name="cordic_tan.v"/>
+      <outfile xil_pn:name="cordic_test.v"/>
+      <outfile xil_pn:name="fa.v"/>
+      <outfile xil_pn:name="shift.v"/>
+      <outfile xil_pn:name="stage.v"/>
+      <outfile xil_pn:name="stage_tan.v"/>
+      <outfile xil_pn:name="two_comp_32.v"/>
+      <outfile xil_pn:name="twos_comp_genert.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1621099095" xil_pn:in_ck="6415711073899673048" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-3814585068672150704" xil_pn:start_ts="1621099089">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="cordic_test_beh.prj"/>
+      <outfile xil_pn:name="cordic_test_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1621099095" xil_pn:in_ck="7073412400994783472" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="5151528858405634771" xil_pn:start_ts="1621099095">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="cordic_test_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1603680270" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1603680270">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1604345159" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-5959009029852571773" xil_pn:start_ts="1604345159">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1604345159" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-6118846026170198299" xil_pn:start_ts="1604345159">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1603680270" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1603680270">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1604345159" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-5619899024479419701" xil_pn:start_ts="1604345159">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1603680270" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-6388418249790646593" xil_pn:start_ts="1603680270">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1604345159" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="2033759704412962543" xil_pn:start_ts="1604345159">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1604345191" xil_pn:in_ck="5292898199990574049" xil_pn:name="TRANEXT_xstsynthesize_spartan3" xil_pn:prop_ck="-6567822483152333403" xil_pn:start_ts="1604345159">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <status xil_pn:value="OutputRemoved"/>
+      <outfile xil_pn:name=".lso"/>
+      <outfile xil_pn:name="CORDIC.lso"/>
+      <outfile xil_pn:name="CORDIC.ngc"/>
+      <outfile xil_pn:name="CORDIC.ngr"/>
+      <outfile xil_pn:name="CORDIC.syr"/>
+      <outfile xil_pn:name="CORDIC_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="cordic.prj"/>
+      <outfile xil_pn:name="cordic.stx"/>
+      <outfile xil_pn:name="cordic.xst"/>
+      <outfile xil_pn:name="cordic_test_stx_beh.prj"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+  </transforms>
+
+</generated_project>

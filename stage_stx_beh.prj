@@ -1,0 +1,5 @@
+verilog isim_temp "fa.v"
+verilog isim_temp "twos_comp_genert.v"
+verilog isim_temp "arithematic_shift.v"
+verilog isim_temp "stage.v"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"
